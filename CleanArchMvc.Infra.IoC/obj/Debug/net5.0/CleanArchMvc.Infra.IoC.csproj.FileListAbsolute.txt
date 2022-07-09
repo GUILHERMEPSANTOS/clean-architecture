@@ -1,0 +1,12 @@
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.deps.json
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\ref\CleanArchMvc.Infra.IoC.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.csproj.AssemblyReference.cache
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.AssemblyInfoInputs.cache
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.AssemblyInfo.cs
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\ref\CleanArchMvc.Infra.IoC.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.IoC\obj\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb

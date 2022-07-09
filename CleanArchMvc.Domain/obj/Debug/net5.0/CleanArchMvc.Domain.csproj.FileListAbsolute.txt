@@ -1,0 +1,12 @@
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.deps.json
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\bin\Debug\net5.0\ref\CleanArchMvc.Domain.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.csproj.AssemblyReference.cache
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.AssemblyInfoInputs.cache
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.AssemblyInfo.cs
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.csproj.CoreCompileInputs.cache
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\ref\CleanArchMvc.Domain.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.pdb
