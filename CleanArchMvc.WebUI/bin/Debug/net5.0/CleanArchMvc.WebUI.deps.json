@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CleanArchMvc.WebUI/1.0.0": {
         "dependencies": {
+          "CleanArchMvc.Infra.IoC": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -322,6 +323,49 @@
         },
         "compile": {
           "CleanArchMvc.WebUI.dll": {}
+        }
+      },
+      "CleanArchMvc.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Application.dll": {}
+        },
+        "compile": {
+          "CleanArchMvc.Application.dll": {}
+        }
+      },
+      "CleanArchMvc.Domain/1.0.0": {
+        "runtime": {
+          "CleanArchMvc.Domain.dll": {}
+        },
+        "compile": {
+          "CleanArchMvc.Domain.dll": {}
+        }
+      },
+      "CleanArchMvc.Infra.Data/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Infra.Data.dll": {}
+        },
+        "compile": {
+          "CleanArchMvc.Infra.Data.dll": {}
+        }
+      },
+      "CleanArchMvc.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Application": "1.0.0",
+          "CleanArchMvc.Domain": "1.0.0",
+          "CleanArchMvc.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Infra.IoC.dll": {}
+        },
+        "compile": {
+          "CleanArchMvc.Infra.IoC.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2026,6 +2070,26 @@
   },
   "libraries": {
     "CleanArchMvc.WebUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Infra.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

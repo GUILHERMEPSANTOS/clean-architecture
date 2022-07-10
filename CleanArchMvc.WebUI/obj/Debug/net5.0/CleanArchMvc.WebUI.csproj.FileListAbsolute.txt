@@ -38,3 +38,11 @@ C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\Cle
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.pdb
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.genruntimeconfig.cache
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.csproj.CopyComplete
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Application.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Domain.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Infra.Data.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Application.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\CleanArchMvc.Infra.Data.pdb

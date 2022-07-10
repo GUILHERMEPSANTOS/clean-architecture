@@ -10,3 +10,6 @@ C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\Cle
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.Data\obj\Debug\net5.0\CleanArchMvc.Infra.Data.dll
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.Data\obj\Debug\net5.0\ref\CleanArchMvc.Infra.Data.dll
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.Data\obj\Debug\net5.0\CleanArchMvc.Infra.Data.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.Data\bin\Debug\net5.0\CleanArchMvc.Domain.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.Data\bin\Debug\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.Infra.Data\obj\Debug\net5.0\CleanArchMvc.Infra.Data.csproj.CopyComplete

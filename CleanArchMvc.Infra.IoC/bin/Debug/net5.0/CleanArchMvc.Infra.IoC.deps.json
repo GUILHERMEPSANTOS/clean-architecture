@@ -7,14 +7,55 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "CleanArchMvc.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Application": "1.0.0",
+          "CleanArchMvc.Domain": "1.0.0",
+          "CleanArchMvc.Infra.Data": "1.0.0"
+        },
         "runtime": {
           "CleanArchMvc.Infra.IoC.dll": {}
+        }
+      },
+      "CleanArchMvc.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Application.dll": {}
+        }
+      },
+      "CleanArchMvc.Domain/1.0.0": {
+        "runtime": {
+          "CleanArchMvc.Domain.dll": {}
+        }
+      },
+      "CleanArchMvc.Infra.Data/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Infra.Data.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CleanArchMvc.Infra.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Infra.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

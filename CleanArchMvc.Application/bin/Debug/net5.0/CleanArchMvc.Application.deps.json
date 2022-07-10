@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "CleanArchMvc.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
         "runtime": {
           "CleanArchMvc.Application.dll": {}
+        }
+      },
+      "CleanArchMvc.Domain/1.0.0": {
+        "runtime": {
+          "CleanArchMvc.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CleanArchMvc.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
