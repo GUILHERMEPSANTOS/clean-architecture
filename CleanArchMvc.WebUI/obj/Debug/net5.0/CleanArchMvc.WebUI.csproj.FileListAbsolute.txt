@@ -22,8 +22,6 @@ C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\Cle
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.TagHelpers.input.cache
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.TagHelpers.output.cache
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.RazorCoreGenerate.cache
-C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -78,3 +76,10 @@ C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\Cle
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\Humanizer.dll
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\ref\CleanArchMvc.WebUI.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\guilh\OneDrive\Documentos\linguagens de programação\.NET\CleanArq\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\index.cshtml.g.cs
