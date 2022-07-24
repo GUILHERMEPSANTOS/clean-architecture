@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/CleanArch.WebApi/bin/Debug/net5.0/CleanArch.WebApi.dll",
+            "program": "${workspaceFolder}/CleanArch.WebApi/bin/Debug/net5.0/WebApi.dll",
             "args": [],
             "cwd": "${workspaceFolder}/CleanArch.WebApi",
             "stopAtEntry": false,
