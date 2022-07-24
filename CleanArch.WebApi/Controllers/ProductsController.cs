@@ -35,13 +35,24 @@ namespace CleanArch.WebApi.Controllers
             return Ok(await _productService.GetById(id));
         }
 
-        [HttpPost("add/product")]
+        [HttpPost]
 
-        public ProductDTO AddProduct([FromBody]ProductDTO request)
+        public async Task AddProduct([FromBody] ProductDTO request)
         {
+            await _productService.Add(request);
+        }
 
-            Console.WriteLine(request.GetType());
-            return request;
+        [HttpPut]
+
+        public async Task UpdateProduct([FromBody] ProductDTO request)
+        {
+            await _productService.Update(request);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task RemoveProduct(int? id)
+        {
+            await _productService.Remove(id);
         }
 
     }

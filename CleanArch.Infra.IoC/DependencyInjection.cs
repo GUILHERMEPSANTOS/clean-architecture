@@ -19,22 +19,23 @@ namespace CleanArch.Infra.IoC
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            var myhandlers = AppDomain.CurrentDomain.Load("CleanArch.Application");
-            
+
             services.AddDbContext<ApplicationDbContext>(options =>
              options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
              b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
-
+            var myhandlers = AppDomain.CurrentDomain.Load("Application");
             services.AddMediatR(myhandlers);
+
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+            services.AddAutoMapper(typeof(DTOToCommandMappingProfile));
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
 
-            
+
 
             return services;
         }

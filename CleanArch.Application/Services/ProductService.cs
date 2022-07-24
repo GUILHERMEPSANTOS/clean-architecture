@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using CleanArch.Application.DTOs;
 using CleanArch.Application.Interfaces;
+using CleanArch.Application.Products.Commands;
 using CleanArch.Application.Products.Queries;
 using CleanArch.Domain.Entities;
 using CleanArch.Domain.Interfaces;
@@ -21,14 +22,16 @@ namespace CleanArch.Application.Services
             _mapper = mapper;
             _mediator = mediator;
         }
-        // public async Task Add(ProductDTO productDTO)
-        // {
-            
-        // }
+        public async Task Add(ProductDTO productDTO)
+        {
+            var productCommand = _mapper.Map<ProductCreateCommand>(productDTO);
+
+            await _mediator.Send(productCommand);
+        }
 
         public async Task<ProductDTO> GetById(int? id)
         {
-            var productQuery = new GetProductByIdQuery(id ?? 0);
+            var productQuery = new GetProductByIdQuery(id.Value);
 
             if (productQuery == null)
                 throw new ArgumentException("Entity could not be loaded");
@@ -57,14 +60,18 @@ namespace CleanArch.Application.Services
             return _mapper.Map<IEnumerable<ProductDTO>>(productsEntity);
         }
 
-        // public async Task Remove(int? id)
-        // {
+        public async Task Remove(int? id)
+        {
+            var productCommand = new ProductRemoveCommand(id.Value);
 
-        // }
+            await _mediator.Send(productCommand);
+        }
 
-        // public async Task Update(ProductDTO productDTO)
-        // {
+        public async Task Update(ProductDTO productDTO)
+        {
+            var productCommand = _mapper.Map<ProductUpdateCommand>(productDTO);
 
-        // }
+            await _mediator.Send(productCommand);
+        }
     }
 }
