@@ -60,18 +60,22 @@ namespace CleanArch.Application.Services
             return _mapper.Map<IEnumerable<ProductDTO>>(productsEntity);
         }
 
-        public async Task Remove(int? id)
+        public async Task<ProductDTO> Remove(int? id)
         {
             var productCommand = new ProductRemoveCommand(id.Value);
 
-            await _mediator.Send(productCommand);
+            var productEntity = await _mediator.Send(productCommand);
+
+            return _mapper.Map<ProductDTO>(productEntity);
         }
 
-        public async Task Update(ProductDTO productDTO)
+        public async Task<ProductDTO> Update(ProductDTO productDTO)
         {
             var productCommand = _mapper.Map<ProductUpdateCommand>(productDTO);
 
-            await _mediator.Send(productCommand);
+            var productEntity = await _mediator.Send(productCommand);
+
+            return _mapper.Map<ProductDTO>(productEntity);
         }
     }
 }

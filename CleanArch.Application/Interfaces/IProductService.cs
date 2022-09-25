@@ -12,7 +12,7 @@ namespace CleanArch.Application.Interfaces
         Task<ProductDTO> GetById(int? id);
         // Task<ProductDTO> GetProductCategory(int? id);
         Task Add(ProductDTO productDTO);
-        Task Update(ProductDTO productDTO);
-        Task Remove(int? id);
+        Task<ProductDTO> Update(ProductDTO productDTO);
+        Task<ProductDTO> Remove(int? id);
     }
 }

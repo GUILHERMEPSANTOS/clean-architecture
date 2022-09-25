@@ -5,10 +5,13 @@ using System.Threading.Tasks;
 using CleanArch.Application.Interfaces;
 using CleanArch.Application.Mappings;
 using CleanArch.Application.Services;
+using CleanArch.Domain.Account;
 using CleanArch.Domain.Interfaces;
 using CleanArch.Infra.Data.Context;
+using CleanArch.Infra.Data.Identity;
 using CleanArch.Infra.Data.Repositories;
 using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,8 +27,19 @@ namespace CleanArch.Infra.IoC
              options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
              b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.ConfigureApplicationCookie(options =>
+            options.AccessDeniedPath = "/Account/Login");
+
             var myhandlers = AppDomain.CurrentDomain.Load("Application");
             services.AddMediatR(myhandlers);
+            
+            services.AddScoped<IAuthenticate, AuthenticateService>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
             services.AddAutoMapper(typeof(DTOToCommandMappingProfile));
@@ -34,8 +48,6 @@ namespace CleanArch.Infra.IoC
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
-
-
 
             return services;
         }
